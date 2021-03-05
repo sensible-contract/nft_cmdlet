@@ -18,8 +18,8 @@ nft-cmd genesis -h
 ## 编译合约代码
 
 ```
-npm gen-desc # 编译合约代码
-npm watch # 监听合约代码变更，自动编译合约代码
+npm run gen-desc # 编译合约代码
+npm run watch    # 监听合约代码变更，自动编译合约代码
 ```
 
 ## 目录
@@ -123,9 +123,9 @@ Options:
 
 ## 具体例子可查看
 
-<a href="https://github.com/satoplay/sensible-nft-cmd/blob/master/historys/%E6%AD%A3%E5%BC%8F%E7%BD%91%E5%8F%91%E5%B8%83%E5%8E%86%E5%8F%B2.md">正式网发布历史</a>
+<a href="https://github.com/sensing-contract/BCP01-Non-Fungible-Token/blob/master/deployments/nft_main_deploy_history.md">正式网部署记录</a>
 
-<a href="https://github.com/satoplay/sensible-nft-cmd/blob/master/historys/%E6%B5%8B%E8%AF%95%E7%BD%91%E5%8F%91%E5%B8%83%E5%8E%86%E5%8F%B2.md">测试网发布历史</a>
+<a href="https://github.com/sensing-contract/BCP01-Non-Fungible-Token/blob/master/deployments/nft_test_deploy_history.md">测试网部署记录</a>
 
 ## 相关资源
 
