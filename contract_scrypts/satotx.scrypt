@@ -27,7 +27,7 @@ contract SatoTx {
     bytes codeWithGenesisPart, 
     bytes genesisOutpoint, 
     bytes genesisOutputIdx,
-    bytes preTxOutpointSig,
+    int preTxOutpointSig,
     bytes preTxOutpointPayload,
     bytes preTxOutpointPadding,
     bytes preTxOutpointDataPart,

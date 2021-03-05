@@ -76,9 +76,9 @@ contract NFT {
       bytes output0 = Util.buildOutput(outputScript0, satoshiIssue);
       outputs = output0;
     }
-    // authorize
-    // require(hash160(issuer) == pl.ownerPkh);
-    // require(checkSig(issuerSig, issuer));
+    //authorize
+    require(hash160(issuer) == pl.ownerPkh);
+    require(checkSig(issuerSig, issuer));
 
     pl.ownerPkh = receiverPkh;
     pl.dataType = PayloadNFT.TRANSFER;
