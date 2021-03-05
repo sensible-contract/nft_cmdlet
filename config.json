@@ -1,0 +1,16 @@
+{
+  "main": {
+    "wif": "L1YYXtGsAGmiKPjmAnYdLiyUYgzvyRJktx2jFfhjW5qh8ByLPQVm",
+    "apiTarget": "whatsonchain",
+    "issueSatoshis": 23000,
+    "transferSatoshis": 23000,
+    "fee": 5000
+  },
+  "test": {
+    "wif": "cVquiv4mPG76Co7naxFrDahcwtQ8gMNDyiHQ5DbQGfCiQTGzu2Wb",
+    "apiTarget": "whatsonchain",
+    "issueSatoshis": 1000,
+    "transferSatoshis": 1000,
+    "fee": 5000
+  }
+}

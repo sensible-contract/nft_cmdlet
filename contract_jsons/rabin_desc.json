@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "compilerVersion": "0.2.13+commit.0d4147d",
+    "contract": "RabinSignature",
+    "md5": "ffa9a28d9642ad7fe0d19c3b42746575",
+    "structs": [],
+    "abi": [
+        {
+            "type": "constructor",
+            "params": []
+        }
+    ],
+    "file": "",
+    "asm": "",
+    "sources": [],
+    "sourceMap": []
+}

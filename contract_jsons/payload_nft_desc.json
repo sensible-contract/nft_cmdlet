@@ -1,0 +1,71 @@
+{
+    "version": 1,
+    "compilerVersion": "0.2.13+commit.0d4147d",
+    "contract": "PayloadNFT",
+    "md5": "3de2422f9ef0a597ff0115ee3d075e81",
+    "structs": [
+        {
+            "name": "PayloadNFTData",
+            "params": [
+                {
+                    "name": "dataStart",
+                    "type": "int"
+                },
+                {
+                    "name": "codePart",
+                    "type": "bytes"
+                },
+                {
+                    "name": "codeWithGenesisPart",
+                    "type": "bytes"
+                },
+                {
+                    "name": "dataType",
+                    "type": "bytes"
+                },
+                {
+                    "name": "genesisOutpoint",
+                    "type": "bytes"
+                },
+                {
+                    "name": "genesisOutputIdx",
+                    "type": "bytes"
+                },
+                {
+                    "name": "ownerPkh",
+                    "type": "Ripemd160"
+                },
+                {
+                    "name": "totalSupply",
+                    "type": "int"
+                },
+                {
+                    "name": "tokenId",
+                    "type": "int"
+                },
+                {
+                    "name": "codeWithGenesisPartHashSwap",
+                    "type": "Sha256"
+                },
+                {
+                    "name": "amountSwap",
+                    "type": "int"
+                },
+                {
+                    "name": "satoshiAmountSell",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "abi": [
+        {
+            "type": "constructor",
+            "params": []
+        }
+    ],
+    "file": "",
+    "asm": "",
+    "sources": [],
+    "sourceMap": []
+}
