@@ -15,6 +15,13 @@ npm install
 nft-cmd genesis -h
 ```
 
+## 编译合约代码
+
+```
+npm gen-desc # 编译合约代码
+npm watch # 监听合约代码变更，自动编译合约代码
+```
+
 ## 目录
 
 <pre>
@@ -25,9 +32,9 @@ nft-cmd genesis -h
 │   ├── rabin.scrypt                         
 │   ├── satotx.scrypt                       # 签名器
 │   └── util.scrypt                         
-├── contract_jsons                          # sCrypt合约编译后的json文件
+├── contract_jsons                          # sCrypt合约自动编译后的json文件
 ├── src                                     #
-├── config.json                             # 配置文件，修改contract_jsons_path可以变更运行时读取的合约json文件目录
+├── config.json                             # 配置文件
 
 ...
 </pre>

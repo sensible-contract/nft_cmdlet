@@ -15,15 +15,19 @@ const dummyTxId =
 const reversedDummyTxId =
   "5884e5db9de218238671572340b207ee85b628074e7e467096c267266baf77a4";
 const SATOTX_API_PREFIX = "https://api.satotx.com";
+
+const out = path.join(__dirname, "deployments/fixture/autoGen");
+
+const contractScryptPath = path.join(__dirname, "../../../contract_scrypts");
+const contractJsonPath = path.join(__dirname, "../../../contract_jsons");
+
 class ScriptHelper {
   static prepare(
     blockChainApi,
     privateKey,
     issueSatoshis,
     transferSatoshis,
-    fee,
-    contractScryptPath,
-    contractJsonPath
+    fee
   ) {
     this.blockChainApi = blockChainApi;
     this.privateKey = privateKey;
@@ -34,9 +38,6 @@ class ScriptHelper {
     this.issueSatoshis = issueSatoshis;
     this.transferSatoshis = transferSatoshis;
     this.fee = fee;
-
-    this.contractScryptPath = contractScryptPath;
-    this.contractJsonPath = contractJsonPath;
   }
   /**
    *  reverse hexStr byte order
@@ -333,6 +334,9 @@ class ScriptHelper {
     return dataPart.buf.toString("hex");
   }
 }
+
+ScriptHelper.contractJsonPath = contractJsonPath;
+ScriptHelper.contractScryptPath = contractScryptPath;
 
 module.exports = {
   inputIndex,
