@@ -81,3 +81,9 @@ Options:
 ./nft-cmd transfer --network test  --genesis_txid e240bf78203c53769d392a914a9cd72ada00c8fbdcd23279463909806afdbe0f --genesis_index 1 --token_id 1 --pre_txid  b9f2683d3d70d810bf2b236b8b2052537edcf343e57e4ed34e7cd2612bffd1fa --pre_index 0 --spend_txid 3e1273f4a81b003ad4d12c823819facf5ed3743b91c333bdbd45598f56f652da --spend_index 1 --addr msnDKWi9WWSyfQNtrNHoksnLehrNU3QXcQ --wif cSGvgj2CEM6W3A71pa5tEVG1PK83SkCbUnjxyk3KvAfrpeXiMVq5
 
 ```
+
+## 具体例子可查看
+
+正式网：https://github.com/satoplay/sensible-nft-cmd/blob/master/historys/%E6%AD%A3%E5%BC%8F%E7%BD%91%E5%8F%91%E5%B8%83%E5%8E%86%E5%8F%B2.md
+
+测试网：https://github.com/satoplay/sensible-nft-cmd/blob/master/historys/%E6%B5%8B%E8%AF%95%E7%BD%91%E5%8F%91%E5%B8%83%E5%8E%86%E5%8F%B2.md
