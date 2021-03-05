@@ -123,9 +123,9 @@ Options:
 
 ## 具体例子可查看
 
-<a href="https://github.com/sensing-contract/BCP01-Non-Fungible-Token/blob/master/deployments/nft_main_deploy_history.md">正式网部署记录</a>
+<a href="https://github.com/sensing-contract/BCP01-Non-Fungible-Token/blob/master/deployments/nft_main_deploy_history.md">正式网部署历史</a>
 
-<a href="https://github.com/sensing-contract/BCP01-Non-Fungible-Token/blob/master/deployments/nft_test_deploy_history.md">测试网部署记录</a>
+<a href="https://github.com/sensing-contract/BCP01-Non-Fungible-Token/blob/master/deployments/nft_test_deploy_history.md">测试网部署历史</a>
 
 ## 相关资源
 
