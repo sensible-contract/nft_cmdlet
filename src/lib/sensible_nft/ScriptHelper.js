@@ -1,8 +1,8 @@
+require("./fix_bsv_in_scrypt");
 const { existsSync, readFileSync } = require("fs");
-const { compileContract } = require("scryptlib");
+const { compileContract, bsv } = require("scryptlib");
 const { Net } = require("../net");
 const path = require("path");
-const bsv = require("bsv");
 const BN = bsv.crypto.BN;
 const minFee = 546;
 
