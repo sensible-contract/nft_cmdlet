@@ -1,5 +1,37 @@
 # sensible-nft-cmd
 
+## 指引
+
+    一个基于感应合约的NFT发行工具
+    目前支持的功能如下：
+        创建Genesis ./nft-cmd genesis -h
+        发行NFT ./nft-cmd issue -h
+        转移NFT ./nft-cmd  transfer -h
+
+## 安装
+
+```
+npm install
+nft-cmd genesis -h
+```
+
+## 目录
+
+<pre>
+.
+├── contract_scrypts                        # sCrypt合约脚本
+│   ├── nft.scrypt                          # NFT合约 
+│   ├── payload_nft.scrypt                  # 解析、构造NFT合约的数据部分
+│   ├── rabin.scrypt                         
+│   ├── satotx.scrypt                       # 签名器
+│   └── util.scrypt                         
+├── contract_jsons                          # sCrypt合约编译后的json文件
+├── src                                     #
+├── config.json                             # 配置文件，修改contract_jsons_path可以变更运行时读取的合约json文件目录
+
+...
+</pre>
+
 ## 主要用法
 
 Usage: nft-cmd [command] [args]
@@ -84,6 +116,10 @@ Options:
 
 ## 具体例子可查看
 
-正式网：https://github.com/satoplay/sensible-nft-cmd/blob/master/historys/%E6%AD%A3%E5%BC%8F%E7%BD%91%E5%8F%91%E5%B8%83%E5%8E%86%E5%8F%B2.md
+<a href="https://github.com/satoplay/sensible-nft-cmd/blob/master/historys/%E6%AD%A3%E5%BC%8F%E7%BD%91%E5%8F%91%E5%B8%83%E5%8E%86%E5%8F%B2.md">正式网发布历史</a>
 
-测试网：https://github.com/satoplay/sensible-nft-cmd/blob/master/historys/%E6%B5%8B%E8%AF%95%E7%BD%91%E5%8F%91%E5%B8%83%E5%8E%86%E5%8F%B2.md
+<a href="https://github.com/satoplay/sensible-nft-cmd/blob/master/historys/%E6%B5%8B%E8%AF%95%E7%BD%91%E5%8F%91%E5%B8%83%E5%8E%86%E5%8F%B2.md">测试网发布历史</a>
+
+## 相关资源
+
+https://github.com/sCrypt-Inc/boilerplate

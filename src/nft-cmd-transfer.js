@@ -85,7 +85,7 @@ function getProgramOption() {
       cfg.transferSatoshis,
       cfg.fee,
       path.join(__dirname, "../contract_scrypts"),
-      path.join(__dirname, "../contract_jsons")
+      path.join(__dirname, "../", cfg.contract_jsons_path || "contract_jsons")
     );
     const nft = new NFT(true);
     nft.setTxGenesisPart({
