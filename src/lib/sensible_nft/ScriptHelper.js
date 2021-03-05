@@ -17,9 +17,11 @@ const reversedDummyTxId =
 const SATOTX_API_PREFIX = "https://api.satotx.com";
 
 const out = path.join(__dirname, "deployments/fixture/autoGen");
-
-const contractScryptPath = path.join(__dirname, "../../../contract_scrypts");
-const contractJsonPath = path.join(__dirname, "../../../contract_jsons");
+const contractScryptPath = path.join(__dirname, "../../../contracts");
+const contractJsonPath = path.join(
+  __dirname,
+  "../../../deployments/fixture/autoGen"
+);
 
 class ScriptHelper {
   static prepare(
