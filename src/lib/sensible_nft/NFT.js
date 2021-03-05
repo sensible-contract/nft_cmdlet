@@ -350,7 +350,7 @@ class NFT {
       BigInt("0x" + sigInfo.sigBE),
       new Bytes(sigInfo.payload),
       new Bytes(sigInfo.padding),
-      new Bytes("25" + preDataPartHex),
+      new Bytes("25" + preDataPartHex), //这里的25对应的是payload_nft.scypt里的dataPrefix部分，表示preDataPartHex的字节数
       new Bytes(opreturnData.toHex()),
 
       new Sig(toHex(sig)),
