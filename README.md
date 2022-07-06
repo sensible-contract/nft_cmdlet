@@ -1,3 +1,6 @@
+# PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED
+
+* * *
 # sensible-nft-cmd
 
 ## 指引
